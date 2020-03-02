@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css"  type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Mrs+Saint+Delafield|Open+Sans|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
+
+    <title>Paula González</title>
+    <style type="text/css">
+        :root{
+            --terra:#EFEBE8;
+            --negre:#1D1D1B;
+            --rosa:#FEF3F1;
+        }
+        body{
+            background: color var(--terra);
+            color: black;
+        }
+        img{
+            width: 75%;
+            display: flex;
+            align-items: center;
+        }
+        header{
+            padding: 10em 8em 8em 3em;
+            font-family: 'Playfair Display';
+            font-size: 35px;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Playfair Display';
+            font-size: 50px;
+            padding: 1em 2em;
+        }
+        h4{
+            font-family: 'Playfair Display';
+            font-size: 32px;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        h5{
+            font-size: 18px;
+            text-align: center;
+            padding-bottom: 1em;
+        }
+        nav{
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 120px;
+            width: 100%;
+            font-weight: 700;
+            position: fixed;
+            background: var(--rosa);
+        }
+        .navigation{
+            width: 100%;
+            text-align: center;
+            
+        }
+        .navigation a{
+            margin: 0 0.5em 0 0;
+        }
+        .navigation a{
+            color: black;
+        }
+        h6{
+            font-family: 'Mrs Saint Delafield';
+            text-align: center;
+            font-size: 40px;
+            padding: 0.5em 0 0 0;
+        }
+        .content_img{
+            object-fit: cover;
+            object-position: center;
+            display: flex;
+            justify-content: center;
+        }
+        .content_txt{
+            padding: 8em 0 0 0;
+            font-family: 'Open Sans';
+        }
+        p{
+            text-align: center;
+            font-family: 'Playfair Display';
+            font-size: 35px;
+            padding-top: 6em;
+            padding-bottom: 1em;
+        }
+        h7{
+            text-align: center center;
+            font-family: 'Open Sans';
+            font-size: 20px;
+            display: flex;
+            padding-bottom: 15em;
+        }
+        h8{
+            text-align: center;
+            font-family: 'Playfair Display';
+            font-size: 35px;
+        }
+        a{
+            color: black;
+            padding: 3em;
+        }
+        footer{
+            text-align: center;
+            background: var(--rosa);
+            padding-top: 5em;
+        }
+        
+        .col-1{
+            display: flex;
+            align-items: center;
+            padding-left: 18em;
+        }
+        /* Disposición de la página web según soporte electrónico/tamaño de la pantalla */
+     /* Para móvil */
+        @media (min-device-width: 300px) and (max-device-width: 480px){
+            body{
+                font-size: 6px;
+                grid-template: repeat(4,1fr)/repeat(2,1fr);
+            }
+        }
+    /* Para iPad */
+        @media only screen and (min-device-width: 481px) and (max-device-width: 1024px){
+            body{
+                font-size: 12px;
+                grid-template: repeat(4,1fr)/repeat(4,1fr);
+            }
+        }
+    </style>
+  </head>
+  <body>  
+    <nav>
+      <div class="logo">
+            <h6>Paula González Jordá</h6>
+        </div>
+       <div class="navigation">
+        <a href="#projects">Trabajos</a>
+        <a href="#sobre mi">Sobre mí</a>
+        <a href="#contacto">Contacto</a>
+        </div>
+    </nav> 
+    <header class="container" id="about"> 
+        <h3>Aquí vais a poder encontrar un trocito de mi, vais a poder ver algunos de los trabajos que he ido realizando a lo largo de mis estudios, además de algunos trabajos que me han solicitado personalmente ajenos a los estudios.</h3>
+    </header>
+    <main class="container" id="proyects"> 
+        <div id="projects">
+            <div class="content_txt">
+                <h4>Centro de música Eclética</h4>
+                <h5>Proyecto a nivel académico, creación de la imagen corporativa para la escuela de música Eclética</h5>
+            </div>
+                <div class="content_img">
+                    <img src="img/imagen%20corporativa.jpg">
+                </div>
+            <div class="content_txt">
+                <h4>Plantas medicinales de la Sierra de Mariola</h4>
+                <h5>Proyecto final de ciclo. Creación de un libro de plantas medicinales de la Sierra de Mariola.</h5>
+            </div>
+            <div class="content_img">
+                <img src="img/treball%20final.png">
+            </div>
+            <div class="content_txt">
+                <h4>Vinilo L'entourloop</h4>
+                <h5>Proyecto a nivel académico, creación de un vinilo de edición especial del grupo francés L'entourloop.</h5>
+            </div>
+                <div class="content_img">
+                    <img src="img/vinil1.png">
+                </div>
+            <div class="content_txt">
+                <h4>DJ Mani</h4>
+                <h5>Proyecto por encargo, creación del diseño de las tarjetas de visita para DJ Mani.</h5>
+            </div>
+            <div class="content_img">
+                <img src="img/tarjetes.jpg">
+            </div>
+            <div class="content_txt">
+                <h4>Nou Festa</h4>
+                <h5>Proyecto por encargo, creación de carteles promocionales de eventos realizados en el pub Nou Festa.</h5>
+            </div>
+            <div class="content_img">
+                    <img src="img/cartells.jpg">
+            </div>
+        </div>
+        <div id="sobre mi">
+            <p>Un poco sobre mí...</p>
+            <h7>Nací el 17 de Octubre de 1999. Me considero una persona activa, atenta y con ganas de aprender y trabajar. La atención, la iniciativa y la creatividad se puede decir que son mis puntos fuertes. 
+            También soy una persona amigable, cercana, atenta y amable. Me gusta aprender cosas nuevas y por eso también me considero una persona curiosa.</h7>
+        </div>
+    </main>
+    <footer>
+        <div id="contacto">
+            <h8>Contacto</h8>
+        </div>
+        <div class="col-1">
+            <a href="https://www.linkedin.com/in/paula-gonzález-jordá-623332179/"><i class="fab fa-linkedin-in"></i><h9>LinkedIn</h9></a>
+            <a href="https://www.instagram.com/gonzalezpaula._/?hl=es"><i class="fab fa-instagram"></i><h9>Instagram</h9></a>
+            <a><i class="far fa-envelope"></i><h10>paulaagonzalez9@gmail.com</h10></a>
+            <a><i class="fas fa-phone-alt"></i><h11>722406880</h11></a>
+        </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
